@@ -8,6 +8,7 @@ def dot(X, Y):
     return r
 
 
+# matrix multiply between A and B
 def matmul(A, B):
     m = len(A)
     n = len(B[0])
@@ -23,4 +24,5 @@ A = [[1, 1], [0, 1]]
 B = [[2, 3], [1, 2]]
 matmul(A, B)
 
+# test against numpy
 print(np.array(A) @ np.array(B))
