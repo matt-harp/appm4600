@@ -1,5 +1,6 @@
 import numpy as np
 
+# take the dot product between vectors X and Y
 def dot(X, Y):
     r = 0
     for i in range(len(X)):
